@@ -5,7 +5,7 @@ Trace the React lifecycle methods of the wrapped component and gain insights on 
 ## Requirements
 
 - The [Opentracing client](https://github.com/opentracing/opentracing-javascript) needs set up. Tracer implementations you may use:
-  - [costacruise/zipkin-javascript-opentracing](https://github.com/costacruise/zipkin-javascript-opentracing)
+  - [DanielMSchmidt/zipkin-javascript-opentracing](https://github.com/DanielMSchmidt/zipkin-javascript-opentracing)
 - The global tracer needs to be set with `opentracing.initGlobalTracer`, this one will be used.
 
 ## Usage
